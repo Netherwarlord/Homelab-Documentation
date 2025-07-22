@@ -26,7 +26,7 @@ My entire software stack is managed via Docker and Docker Compose for easy deplo
 * **Key Services:**
     * **Odoo:** Used for helpdesk ticketing and project management (migrated from Nextcloud).
     * **RustDesk:** Self-hosted server for secure remote access to lab machines.
-    * **Samba:** Provides a centralized NAS file share, mounted as a network drive on Windows clients for high-performance storage (e.g., Steam library).
+    * **Samba:** Provides a centralized NAS file share, mounted as a network drive on Windows and MacOS clients for high-performance storage (e.g., Steam library).
     * **Grafana & Prometheus:** Powers the live status monitoring panel.
 
 ---
