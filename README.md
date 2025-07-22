@@ -5,23 +5,6 @@ This repository contains the documentation for my personal homelab environment. 
 
 ---
 
-### 📊 Live Homelab Status
-
-> These panels are rendered live from my Grafana instance (via an Nginx reverse proxy), providing real-time insight into my server's operations.
-
-<div align="center">
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=20&render=1&theme=dark" alt="CPU Busy Gauge" width="33%" height="200" frameborder="0"/>
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=155&render=1&theme=dark" alt="System Load Gauge" width="33%" height="200" frameborder="0"/>
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=16&render=1&theme=dark" alt="RAM Usage Gauge" width="33%" height="200" frameborder="0"/>
-  <br/>
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=77&render=1&theme=dark" alt="CPU Usage Chart" width="48%" height="250" frameborder="0"/>
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=78&render=1&theme=dark" alt="Memory Usage Chart" width="48%" height="250" frameborder="0"/>
-  <br/>
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=74&render=1&theme=dark" alt="Network Traffic Chart" width="100%" height="250" frameborder="0"/>
-</div>
-
----
-
 ### 🛠️ Hardware Infrastructure
 
 | Component         | Model/Details                                       | Role                                           |
@@ -45,6 +28,23 @@ My entire software stack is managed via Docker and Docker Compose for easy deplo
     * **RustDesk:** Self-hosted server for secure remote access to lab machines.
     * **Samba:** Provides a centralized NAS file share, mounted as a network drive on Windows clients for high-performance storage (e.g., Steam library).
     * **Grafana & Prometheus:** Powers the live status monitoring panel.
+
+---
+
+### 📊 Live Homelab Status
+
+> These panels are rendered live from my Grafana instance (via an Nginx reverse proxy), providing real-time insight into my server's operations.
+
+<div align="center">
+  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=20&render=1&theme=dark" alt="CPU Busy Gauge" width="33%" height="200" frameborder="0"/>
+  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=155&render=1&theme=dark" alt="System Load Gauge" width="33%" height="200" frameborder="0"/>
+  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=16&render=1&theme=dark" alt="RAM Usage Gauge" width="33%" height="200" frameborder="0"/>
+  <br/>
+  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=77&render=1&theme=dark" alt="CPU Usage Chart" width="48%" height="250" frameborder="0"/>
+  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=78&render=1&theme=dark" alt="Memory Usage Chart" width="48%" height="250" frameborder="0"/>
+  <br/>
+  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=74&render=1&theme=dark" alt="Network Traffic Chart" width="100%" height="250" frameborder="0"/>
+</div>
 
 ---
 
