@@ -12,16 +12,35 @@ This repository contains the documentation for my personal homelab environment. 
 
 > These panels are rendered live from my Grafana instance (via an Nginx reverse proxy), providing real-time insight into my server's operations.
 
-<div align="center">
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=20&render=1&theme=dark" alt="CPU Busy Gauge" width="32%"/>
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=155&render=1&theme=dark" alt="System Load Gauge" width="32%"/>
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=16&render=1&theme=dark" alt="RAM Usage Gauge" width="32%"/>
-  <br/>
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=77&render=1&theme=dark" alt="CPU Usage Chart" width="49%"/>
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=78&render=1&theme=dark" alt="Memory Usage Chart" width="49%"/>
-  <br/>
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=74&render=1&theme=dark" alt="Network Traffic Chart" width="100%"/>
-</div>
+<table width="100%">
+  <!-- Row 1: 3 Gauges -->
+  <tr align="center">
+    <td colspan="2" width="33.33%">
+      <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=20&render=1&theme=dark" alt="CPU Busy Gauge" width="100%"/>
+    </td>
+    <td colspan="2" width="33.33%">
+      <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=155&render=1&theme=dark" alt="System Load Gauge" width="100%"/>
+    </td>
+    <td colspan="2" width="33.33%">
+      <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=16&render=1&theme=dark" alt="RAM Usage Gauge" width="100%"/>
+    </td>
+  </tr>
+  <!-- Row 2: 2 Charts -->
+  <tr align="center">
+    <td colspan="3" width="50%">
+      <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=77&render=1&theme=dark" alt="CPU Usage Chart" width="100%"/>
+    </td>
+    <td colspan="3" width="50%">
+      <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=78&render=1&theme=dark" alt="Memory Usage Chart" width="100%"/>
+    </td>
+  </tr>
+  <!-- Row 3: 1 Chart -->
+  <tr align="center">
+    <td colspan="6" width="100%">
+      <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=74&render=1&theme=dark" alt="Network Traffic Chart" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
