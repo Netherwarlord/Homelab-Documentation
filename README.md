@@ -14,8 +14,8 @@ This repository contains the documentation for my personal homelab environment. 
   <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=155&render=1&theme=dark" alt="System Load Gauge" width="33%" height="200" frameborder="0"/>
   <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=16&render=1&theme=dark" alt="RAM Usage Gauge" width="33%" height="200" frameborder="0"/>
   <br/>
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=77&render=1&theme=dark" alt="CPU Usage Chart" width="49%" height="250" frameborder="0"/>
-  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=78&render=1&theme=dark" alt="Memory Usage Chart" width="49%" height="250" frameborder="0"/>
+  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=77&render=1&theme=dark" alt="CPU Usage Chart" width="48%" height="250" frameborder="0"/>
+  <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=78&render=1&theme=dark" alt="Memory Usage Chart" width="48%" height="250" frameborder="0"/>
   <br/>
   <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=74&render=1&theme=dark" alt="Network Traffic Chart" width="100%" height="250" frameborder="0"/>
 </div>
