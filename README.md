@@ -36,14 +36,7 @@ My entire software stack is managed via Docker and Docker Compose for easy deplo
 > These panels are rendered live from my Grafana instance (via an Nginx reverse proxy), providing real-time insight into my server's operations.
 
 <div align="center">
-  <img src="https://grafana.infernalaquatics.com/render/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=20&render=1&theme=dark" alt="CPU Busy Gauge" width="30%" height="200" frameborder="0"/>
-  <img src="https://grafana.infernalaquatics.com/render/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=155&render=1&theme=dark" alt="System Load Gauge" width="30%" height="200" frameborder="0"/>
-  <img src="https://grafana.infernalaquatics.com/render/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=16&render=1&theme=dark" alt="RAM Usage Gauge" width="30%" height="200" frameborder="0"/>
-  <br/>
-  <img src="https://grafana.infernalaquatics.com/render/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=77&render=1&theme=dark" alt="CPU Usage Chart" width="48%" height="250" frameborder="0"/>
-  <img src="https://grafana.infernalaquatics.com/render/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=78&render=1&theme=dark" alt="Memory Usage Chart" width="48%" height="250" frameborder="0"/>
-  <br/>
-  <img src="https://grafana.infernalaquatics.com/render/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=74&render=1&theme=dark" alt="Network Traffic Chart" width="100%" height="250" frameborder="0"/>
+  <img src="http://grafana.infernalaquatics.com/dashboard/snapshot/w1typI4IN7ixLUoNAzn9vTYT8X2ct2Vh" width="100%" height="400" frameborder="0">
 </div>
 
 ---
