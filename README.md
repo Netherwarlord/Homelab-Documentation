@@ -28,6 +28,10 @@ My entire software stack is managed via Docker and Docker Compose for easy deplo
     * **RustDesk:** Self-hosted server for secure remote access to lab machines.
     * **Samba:** Provides a centralized NAS file share, mounted as a network drive on Windows and MacOS clients for high-performance storage (e.g., Steam library).
     * **Grafana & Prometheus:** Powers the live status monitoring panel.
+    * **Nginx Proxy Manager:** Manages reverse proxy and SSL certificates for all web services.
+    * **Pi-Hole:** Provides network-wide ad blocking and local DNS resolution (Split-Brain DNS)
+* **Troubleshooting Case Studies:
+    * **Case Study:**<a href="#">Solving a Complex DNS Resolution Issue in a Homelab Environment</a>
 
 ---
 
