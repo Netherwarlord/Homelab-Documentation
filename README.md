@@ -35,12 +35,14 @@ My entire software stack is managed via Docker and Docker Compose for easy deplo
 
 ---
 
-### 📊 Live Homelab Status
+### 📊 Homelab Monitoring Dashboard
 
-> These panels are rendered live from my Grafana instance (via an Nginx reverse proxy), providing real-time insight into my server's operations.
+> This is a snapshot of my custom Grafana dashboard, which I use to monitor my homelab server's health and performance in real-time. It visualizes key metrics for CPU, memory, storage, and network activity collected via Telegraf and stored in an InfluxDB database.
+
+> A fully interactive version of this dashboard will be hosted on my upcoming portfolio site.
 
 <div align="center">
-   <img src="./dashboard-image.png" width="100%" height="400" frameborder="0">
+    <img src="./dashboard-image.png" width="100%" height="400" frameborder="0">
 </div>
 
 ---
