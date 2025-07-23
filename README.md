@@ -37,7 +37,7 @@ My entire software stack is managed via Docker and Docker Compose for easy deplo
 
 ### 📊 Homelab Monitoring Dashboard
 
-> This is a snapshot of my custom Grafana dashboard, which I use to monitor my homelab server's health and performance in real-time. It visualizes key metrics for CPU, memory, storage, and network activity collected via Telegraf and stored in an InfluxDB database.
+> This is a snapshot of my custom Grafana dashboard, which I use to monitor my homelab server's health and performance. It visualizes key metrics scraped by **Prometheus** from various node exporters, providing real-time insight into CPU, memory, storage, and network activity.
 
 > A fully interactive version of this dashboard will be hosted on my upcoming portfolio site.
 
