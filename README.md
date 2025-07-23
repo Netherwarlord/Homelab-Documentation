@@ -40,7 +40,7 @@ My entire software stack is managed via Docker and Docker Compose for easy deplo
 > These panels are rendered live from my Grafana instance (via an Nginx reverse proxy), providing real-time insight into my server's operations.
 
 <div align="center">
-   <img src="https://grafana.infernalaquatics.com/d-solo/rYdddlPWk/node-exporter-full?orgId=1&panelId=20&render=1&theme=dark" width="33%" height="200" frameborder="0">
+   <img src="./assets/dashboard-image.png" width="100%" height="400" frameborder="0">
 </div>
 
 ---
