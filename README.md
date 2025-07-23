@@ -31,7 +31,7 @@ My entire software stack is managed via Docker and Docker Compose for easy deplo
     * **Nginx Proxy Manager:** Manages reverse proxy and SSL certificates for all web services.
     * **Pi-Hole:** Provides network-wide ad blocking and local DNS resolution (Split-Brain DNS)
 * **Troubleshooting Case Studies:**
-    * **Case Study:**<a href="#" style="text-decoration: none;"> Solving a Complex DNS Resolution Issue in a Homelab Environment</a>
+    * **Case Study:**<a href="#" style="text-decoration: none"> Solving a Complex DNS Resolution Issue in a Homelab Environment</a>
 
 ---
 
